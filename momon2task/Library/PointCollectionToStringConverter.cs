@@ -1,15 +1,16 @@
-﻿namespace Task2.Library
-{
-    using System;
-    using System.Globalization;
-    using System.Windows;
-    using System.Windows.Data;
-    using System.Windows.Media;
+﻿using System;
+using System.Collections.Generic;
+using System.Globalization;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Data;
+using System.Windows.Media;
 
-    /// <summary>
-    /// Class to convert <see cref="Point"/> to <see cref="string"/> and back.
-    /// </summary>
-    public class PointCollectionToStringConverter : IValueConverter
+namespace momon2task.Library
+{
+    class PointCollectionToStringConverter : IValueConverter
     {
         /// <summary>
         /// Converts <see cref="Point"/> to <see cref="string"/>.
