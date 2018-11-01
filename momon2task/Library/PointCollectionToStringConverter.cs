@@ -23,13 +23,13 @@
         {
             try
             {
-                string arr = string.Empty;
+                string ar = string.Empty;
                 foreach (var v in value as PointCollection)
                 {
-                    arr += v.ToString() + '\n';
+                    ar += v.ToString() + '\n';
                 }
 
-                return arr;
+                return ar;
             }
             catch
             {
